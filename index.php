@@ -18,13 +18,13 @@
     <div class="card text-white bg-dark mb-3">
     <div class="card-header">
         
-         <h5 class="card-title">Selecione a operação que deseja</h5>
+         <h5 class="card-title">Selecione a operação</h5>
     
     </div>
     <div class="card-body">
     <div class="form-check">
        
-        <input type="radio" class="form-check-input" name="opera" value="1">
+        <input type="radio" class="form-check-input" name="opera" value="1" required>
         <label class="form-check-label" for="soma">Soma</label>
     
     </div>
@@ -57,13 +57,13 @@
     <div class="mb-2">
     
         <label for="valor1" class="form-label">Primeiro valor</label>
-        <input type="text" name="valor1" id="vl1" class="form-control">
+        <input type="number" name="valor1" id="vl1" class="form-control" required name=valor1/>
     
     </div>
     <div class="mb-2">
      
         <label for="valor2" class="form-label">Segundo valor</label>
-        <input type="text" name="valor2" id="vl2" class="form-control">
+        <input type="number" name="valor2" id="vl2" class="form-control" required name=valor2/>
     </div>
     
         <button type="submit" class="btn btn-success">Calcular</button>
@@ -107,7 +107,7 @@
     <div class="card-body">
      <!--RESULTADO AQUI!-->
      <h1 class="card-title">
-       Gui
+       Gui Feitosa
     </h1>
     </div>
     </div>
